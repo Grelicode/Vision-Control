@@ -134,7 +134,7 @@ pokazStan();                     // LED + LCD
 - Zamknij Monitor portu szeregowego, bo port musi być wolny dla Pythona
 
 **Python**
-```
+
 - Pobierz w vsc pip install opencv-python mediapipe pyserial
 - Jeśli Arduino jest na innym porcie niż `COM3`, zmień go w `gesty.py`
 
