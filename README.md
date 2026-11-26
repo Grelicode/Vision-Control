@@ -3,7 +3,7 @@
 <p>Projekt hobbystyczny łączący wizję komputerową z elektroniką. Kamera w laptopie śledzi dłoń (MediaPipe Hand Landmarker), skrypt w Pythonie liczy wyprostowane palce i zamienia gest na polecenie wysyłane przez port szeregowy do Arduino UNO. Arduino przełącza tryb pracy, zapala odpowiednie diody LED, odtwarza dźwięk na buzzerze i pokazuje stan na wyświetlaczu LCD 16×2.</p>
 
 <p align="center">
-  <img src="<img width="1740" height="1350" />" alt="Schemat układu VisionControl" width="700"/>
+  <img src="schemat.png" alt="Schemat układu VisionControl" width="700"/>
 </p>
 
 ---
@@ -13,7 +13,6 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Hardware](#hardware)
-- [Wiring](#wiring)
 - [Libraries](#libraries)
 - [Program logic](#program-logic)
 - [Installation](#installation)
@@ -61,27 +60,6 @@ Kamera ──► Python (OpenCV + MediaPipe) ──► USB / Serial 9600 ──�
 - Buzzer pasywny (sterowany `tone()`)
 - Płytka stykowa + przewody
 - Kamera internetowa (np. wbudowana w laptopa)
-
----
-
-## Wiring
-
-| Element | Pin elementu | Arduino |
-|---------|--------------|---------|
-| LCD | RS | A0 |
-| LCD | E | A1 |
-| LCD | D4 / D5 / D6 / D7 | A2 / A3 / A4 / A5 |
-| LCD | VSS, RW, K | GND |
-| LCD | VDD | 5V |
-| LCD | A (podświetlenie) | 5V przez 220 Ω |
-| LCD | V0 | środkowa nóżka potencjometru 10 kΩ (skrajne: 5V i GND) |
-| LED czerwone | anody | D8, D9 |
-| LED zielone | anody | D10, D11 |
-| LED żółte | anody | D12, D13 |
-| LED (wszystkie) | katody | GND przez 220 Ω |
-| Buzzer | + / − | D3 / GND |
-
-Schemat w wersji wektorowej: [`docs/schemat.svg`](docs/schemat.svg).
 
 ---
 
@@ -179,7 +157,7 @@ python gesty.py
 ## Media
 
 <p align="center">
-  <a href="docs/demo.mp4"><img src="docs/demo.gif" alt="Demo VisionControl" width="320"/></a>
+https://github.com/user-attachments/assets/4364dd0c-eb03-477b-ab39-3baa151f3f81
 </p>
 
 <p align="center"><a href="docs/demo.mp4">▶️ Pełny film z dźwiękiem (MP4)</a></p>
