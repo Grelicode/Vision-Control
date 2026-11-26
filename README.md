@@ -3,7 +3,7 @@
 <p>Projekt hobbystyczny łączący wizję komputerową z elektroniką. Kamera w laptopie śledzi dłoń (MediaPipe Hand Landmarker), skrypt w Pythonie liczy wyprostowane palce i zamienia gest na polecenie wysyłane przez port szeregowy do Arduino UNO. Arduino przełącza tryb pracy, zapala odpowiednie diody LED, odtwarza dźwięk na buzzerze i pokazuje stan na wyświetlaczu LCD 16×2.</p>
 
 <p align="center">
-  <img src="<img width="1740" height="1350" alt="schemat" src="https://github.com/user-attachments/assets/f7e750d1-9368-4fe9-998e-a3cc791ffbbf" />" alt="Schemat układu VisionControl" width="700"/>
+  <img src="<img width="1740" height="1350" />" alt="Schemat układu VisionControl" width="700"/>
 </p>
 
 ---
