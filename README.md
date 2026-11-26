@@ -128,17 +128,14 @@ pokazStan();                     // LED + LCD
 ## Installation
 
 **Arduino**
-- Otwórz `arduino/vision_control/vision_control.ino` w Arduino IDE
+- Otwórz `vision_control.ino` w Arduino IDE
 - Wybierz płytkę Arduino UNO i jej port COM
 - Kliknij Upload
 - Zamknij Monitor portu szeregowego, bo port musi być wolny dla Pythona
 
 **Python**
-```bash
-cd python
-pip install -r requirements.txt
 ```
-- Pobierz model [`hand_landmarker.task`](https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task) i zapisz go obok `gesty.py`
+- Pobierz w vsc pip install opencv-python mediapipe pyserial
 - Jeśli Arduino jest na innym porcie niż `COM3`, zmień go w `gesty.py`
 
 ---
